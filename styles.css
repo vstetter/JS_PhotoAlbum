@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.AlbumGallery {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.AlbumHeader {
+  display: block;
+  margin: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  height: 100px;
+}
+.AlbumHeader h1 {
+  text-align: center;
+}
+
+.AlbumGallery_Wrapper {
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+  padding: 5px;
+  min-height: 300px;
+}
+
+.Album {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 33%;
+  }
+
+
+.Album img {
+  display: block;
+  margin: 0 auto;
+}
+
+.Album p {
+      font-size: 2em;
+      display: block;
+      text-align: center;
+    }
+
+
+
+.AlbumContentsWrapper {
+  display: block;
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+.Nav_Sidebar, .AlbumContents {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.Nav_Sidebar {
+  background-color: gray;
+  width: 18%;
+  min-height: 900px;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav_Sidebar nav {
+  margin-top: 100px;
+}
+
+.AlbumContents {
+  background-color: white;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.AlbumContents h2 {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.AlbumContentsContainer {
+  display: block;
+}
+
+.Album_Photos {
+  display: inline-block;
+  width: 33%;
+}
+
+
+.Album_Photos img {
+  display: block;
+  margin: 0 auto;
+}
+
+.Album_Photos p {
+  font-size: 2em;
+  display: block;
+  text-align: center;
+}
+
+
+
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: block;
+  margin:0 auto;
+}
+
+nav a {
+  font-size: 2.5em;
+  display:block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
