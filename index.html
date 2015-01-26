@@ -8,104 +8,100 @@
 <body>
 
 
-<!-- ALBUM GALLERY VIEW -->
-<!--
-<section class="AlbumGallery">
-
-  <div class="AlbumHeader">
-    <h1>My Albums</h1>
-  </div>
-
-  <div class = "AlbumGallery_Wrapper">
-  <article class="Album">
-    <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-    <p>Album 1</p>
-  </article>
-
-  <article class="Album">
-    <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-    <p>Album 2</p>
-  </article>
-
-  <article class="Album">
-    <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-    <p>Album 3</p>
-  </article>
-
-  <article class="Album">
-    <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-    <p>Album 4</p>
-  </article>
-
-  <article class="Album">
-    <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-    <p>Album 5</p>
-  </article>
-
-  <article class="Album">
-    <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-    <p>Album 6</p>
-  </article>
-  </div>
-</section>
- -->
 
 
 <!-- ALBUM CONTENTS VIEW -->
 
-<div class="AlbumContentsWrapper">
 
-<section class=Nav_Sidebar>
+<aside>
   <nav>
     <ul>
-      <li><a href="">Album 1</a></li>
-      <li><a href="">Album 2</a></li>
-      <li><a href="">Album 3</a></li>
-      <li><a href="">Album 4</a></li>
-      <li><a href="">Album 5</a></li>
-      <li><a href="">Album 6</a></li>
-    </ul>
+      <li class="Nav_Sidebar"><a href="" rel="AlbumGallery_Wrapper" data-related="AlbumGallery_Wrapper">Home</a></li>
+      <li class="Nav_Sidebar"><a href="" rel="album1" data-related="album1">Purple Album</a></li>
+      <li class="Nav_Sidebar"><a href="" rel="album2" data-related="album2">Blue Album</a></li>
+      <li class="Nav_Sidebar"><a href="" rel="album3" data-related="album3">Green Album</a></li>
+      <li class="Nav_Sidebar"><a href="" rel="album4" data-related="album4">Yellow Album</a></li>
+      <li class="Nav_Sidebar"><a href="" rel="album5" data-related="album5">Brown Album</a></li>
+      <li class="Nav_Sidebar"><a href="" rel="album6" data-related="album6">Grey Album</a></li>
+      </ul>
   </nav>
-</section>
+</aside>
 
-<section class="AlbumContents">
+  <!-- ALBUM GALLERY VIEW -->
 
-  <h2>Album 3</h2>
 
-<div class=AlbumContentsContainer>
+  <div class="AlbumContentsContainer">
 
-  <article class="Album_Photos">
-    <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-    <p>Photo1</p>
-  </article>
+    <article class="AlbumGallery_Wrapper active">
 
-  <article class="Album_Photos">
-    <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-    <p>Photo2</p>
-  </article>
+      <h1 class="AlbumGalleryHeadline">My Albums</h1>
+      <nav>
+        <ul>
+          <li class="activeNav"><a href="" rel="album1"><img src="images/PurpleFlowers.jpg" alt=""><p>Purple Album</p></a></li>
+          <li class="activeNav"><a href="" rel="album2"><img src="images/BluePond.jpg" alt=""><p>Blue Album</p></a></li>
+          <li class="activeNav"><a href="" rel="album3"><img src="images/Greenrainforest.jpg" alt=""><p>Green Album</p></a></li>
+          <li class="activeNav"><a href="" rel="album4"><img src="images/yellowflower3.jpg" alt=""><p>Yellow Album</p></a></li>
+          <li class="activeNav"><a href="" rel="album5"><img src="images/Brown1.jpg" alt=""><p>Brown Album</p></a></li>
+          <li class="activeNav"><a href="" rel="album6"><img src="images/grey1.jpg" alt=""><p>Grey Album</p></a></li>
+        </ul>
+      </nav>
 
-  <article class="Album_Photos">
-    <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-    <p>Photo3</p>
-  </article>
+    </article>
 
-</div>
 
-</section>
 
-</div>
+    <article class= "album1">
+      <h2>Purple Album</h2>
+      <a href="" class="Albumphoto"><img src="images/PurpleFlowers2.jpg" alt=""><p>Photo1</p></a>
+      <a href="" class="Albumphoto"><img src="images/PurpleFlowers.jpg" alt=""><p>Photo2</p></a>
+      <a href="" class="Albumphoto"><img src="images/PurpleMountains.jpg" alt=""><p>Photo3</p></a>
+    </article>
 
-<!--
-PHOTO DETAIL VIEW
 
-<section class="PhotoDetail">
-  <p>Photo 1</p>
-  <div><img src="http://fillmurray.com/g/250/250" alt=""></div>
-</section>
+    <article class= "album2">
+      <h2>Blue Album</h2>
+      <a href="" class="Albumphoto"><img src="images/bluefeathers.jpg" alt=""><p>Photo1</p></a>
+      <a href="" class="Albumphoto"><img src="images/bluelandscape2.jpg" alt=""><p>Photo2</p></a>
+      <a href="" class="Albumphoto"><img src="images/BluePond.jpg" alt=""><p>Photo3</p></a>
+    </article>
+
+
+    <article class= "album3">
+      <h2>Green Album</h2>
+      <a href="" class="Albumphoto"><img src="images/Greenrainforest.jpg" alt=""><p>Photo1</p></a>
+      <a href="" class="Albumphoto"><img src="images/Greenflowers.jpg" alt=""><p>Photo2</p></a>
+      <a href="" class="Albumphoto"><img src="images/greenbird.jpg" alt=""><p>Photo3</p></a>
+    </article>
+
+    <article class= "album4">
+      <h2>Yellow Album</h2>
+      <a href="" class="Albumphoto"><img src="images/yellowgreenflowers.jpg" alt=""><p>Photo1</p></a>
+      <a href="" class="Albumphoto"><img src="images/yellowflower3.jpg" alt=""><p>Photo2</p></a>
+      <a href="" class="Albumphoto"><img src="images/yellowflower.jpg" alt=""><p>Photo3</p></a>
+    </article>
+
+
+    <article class= "album5">
+      <h2>Brown Album</h2>
+      <a href="" class="Albumphoto"><img src="images/browndryleaf.jpg" alt=""><p>Photo1</p></a>
+      <a href="" class="Albumphoto"><img src="images/browndunes.jpg" alt=""><p>Photo2</p></a>
+      <a href="" class="Albumphoto"><img src="images/Brown1.jpg" alt=""><p>Photo3</p></a>
+    </article>
+
+    <article class= "album6">
+      <h2>Grey Album</h2>
+      <a href="" class="Albumphoto"><img src="images/greyseas.jpg" alt=""><p>Photo1</p></a>
+      <a href="" class="Albumphoto"><img src="images/grey2.jpg" alt=""><p>Photo2</p></a>
+      <a href="" class="Albumphoto"><img src="images/grey1.jpg" alt=""><p>Photo3</p></a>
+    </article>
+
+
+  </div>
+
 
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="photo-album.js"></script>
+
 </body>
 </html>
- -->
