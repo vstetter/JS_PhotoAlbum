@@ -1,5 +1,20 @@
 $(document).ready(function() {
 
+  $('aside').hide();
+
+  $ ('.Albumphoto').on ('click', 'img', function(event) {
+    event.preventDefault();
+    $(this).toggleClass("detailView");
+
+    if ($(this).hasClass('detailView')) {
+      $('aside').hide();
+      $(this).first().parent().siblings().hide();
+    } else {
+      $('aside').show();
+      $(this).first().parent().siblings().show();
+    };
+
+  });
 
 
   $('nav a').click(function(event) {
@@ -22,19 +37,7 @@ $(document).ready(function() {
   });
 
 
-$ ('.Albumphoto').on ('click', 'img', function(event) {
-  event.preventDefault();
-  $(this).toggleClass("detailView");
 
-  if ($(this).hasClass('detailView')) {
-    $('aside').hide();
-    $(this).first().parent().siblings().hide();
-  } else {
-    $('aside').show();
-    $(this).first().parent().siblings().show();
-  };
-
-});
 
 
 });
